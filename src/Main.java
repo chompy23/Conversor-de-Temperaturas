@@ -8,6 +8,6 @@ public class Main {
         double tenperaturaEnGradosFarenheit = (temperaturaGradosCelcius * 1.8) + 32;
         System.out.println(" La temperatura en Grados Farenheit es : " + (Math.round(tenperaturaEnGradosFarenheit * 100.0) / 100.0) + "°F");
         int  temperaturaFinalGradosFarenheit = (int) tenperaturaEnGradosFarenheit;
-        System.out.println(" La temperatura en Grados Farenheit es : " + temperaturaFinalGradosFarenheit + "°F");
+        System.out.println("La temperatura en Grados Farenheit es : " + temperaturaFinalGradosFarenheit + "°F");
     }
 }
